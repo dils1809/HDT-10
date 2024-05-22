@@ -3,7 +3,7 @@ package hdt10;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Main {4
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Graph graph = new Graph(100); // Cambia el número de nodos según sea necesario
