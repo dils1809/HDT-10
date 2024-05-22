@@ -43,6 +43,10 @@ public class Graph {
         return cityIndexMap.get(city);
     }
 
+    public boolean cityExists(String city) {
+        return cityIndexMap.containsKey(city);
+    }
+
     public void removeEdge(String city1, String city2) {
         int idx1 = cityIndexMap.get(city1);
         int idx2 = cityIndexMap.get(city2);

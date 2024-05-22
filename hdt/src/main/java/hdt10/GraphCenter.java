@@ -1,5 +1,7 @@
 package hdt10;
 
+import java.util.List; // Asegúrate de importar java.util.List
+
 public class GraphCenter {
     public static String findGraphCenter(Graph graph, FloydWarshall fw) {
         int[][] dist = fw.getDistances();
@@ -23,4 +25,3 @@ public class GraphCenter {
         return cities.get(centerIndex);
     }
 }
-
